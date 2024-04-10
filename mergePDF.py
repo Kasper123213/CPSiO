@@ -12,5 +12,5 @@ def merge_pdfs(paths, output):
         pdf_writer.write(out)
 
 # Przykładowe użycie
-paths = ['Zadanie1.pdf', 'Zadanie2.pdf', 'Zadanie3.pdf', 'Zadanie4.pdf']
+paths = ['Zadanie5.pdf', 'Zadanie6.pdf', 'Zadanie7.pdf', 'Zadanie8.pdf', 'Zadanie9.pdf', 'Zadanie10.pdf', 'Zadanie11.pdf', 'Zadanie12.pdf']
 merge_pdfs(paths, 'combined.pdf')

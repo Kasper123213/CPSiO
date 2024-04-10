@@ -313,7 +313,7 @@ sum_image_clipped = np.clip(sum_image, 0, None)
 gamma_corrected = rescale_intensity(np.sqrt(sum_image_clipped))
 
 # Wyświetlanie wyników
-fig, ax = plt.subplots(2, 4, figsize=(20, 10), sharex=True, sharey=True)
+fig, ax = plt.subplots(4, 2, figsize=(20, 10), sharex=True, sharey=True)
 ax = ax.ravel()
 
 # Wyostrzony obraz po dodaniu laplasjanu
